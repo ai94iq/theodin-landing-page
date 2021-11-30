@@ -106,23 +106,19 @@ body {
 
 .mid-image {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .mid-image img {
   width: 200px;
   height: 200px;
-  object-fit: cover;
   border: 5px solid #3882f6;
+  border-spacing: 0px;
   border-radius: 16px;
   margin: 5px 20px 0px 20px;
 }
 
 .mid-image-para {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .mid-image-para p {
@@ -135,21 +131,71 @@ body {
   color: #1f2937;
   background-color: #e5e7eb;
   display: flex;
-  flex-direction: column;
   padding: 0 250px;
-  justify-content: center;
 }
 
 .quote p {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
-    font-family: 'Roboto', arial;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: "Roboto", arial;
 }
 
 .quote b {
-    padding-bottom: 25px;
-    padding-right: 25px;
-    font-family: 'Roboto', arial;
-    float: right;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  font-family: "Roboto", arial;
+  float: right;
+}
+
+/* Big Part */
+
+.big-button {
+  background-color: #3882f6;
+  margin: 50px 200px;
+  padding: 10px 80px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.big-button-content {
+  flex: 1;
+}
+
+.big-button-para {
+  text-align: left;
+}
+
+.big-button-para p {
+  color: #ffffff;
+  opacity: 0.7;
+  margin: 5px 30px 30px 50px;
+}
+
+.big-button-para h3 {
+  color: #ffffff;
+  font-family: "Roboto", arial;
+  padding: 0;
+  margin: 30px 0px 0px 50px;
+}
+
+.big-button button {
+  color: #ffffff;
+  font-family: "Roboto", arial;
+  border-color: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  background-color: #3882f6;
+  padding: 5px 25px;
+  font-size: 15px;
+  float: right;
+  margin: -65px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #1f2937;
+  color: #ffffff;
+  font-family: "Roboto", arial;
 }
