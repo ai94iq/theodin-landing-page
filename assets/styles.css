@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+/* Nav Part */
 
 .nav 
 {
@@ -35,6 +36,8 @@ body {
   padding-left: 55px;
   padding-right: 55px;
 }
+
+/* Hero Part */
 
 .hero {
   display: flex;
@@ -83,4 +86,49 @@ body {
 .hero-image img {
   width: 400px;
   height: 250px;
+}
+
+/* Mid Part */
+
+.mid {
+  color: #222c3a;
+  background-color: #ffffff;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.mid-content {
+  flex-basis: 400px;
+  text-align: left;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mid-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mid-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+    margin: 5px 20px 0px 20px;
+}
+
+.mid-image-para {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mid-image-para p {
+  padding: 0px 90px 0px 83px;
 }
