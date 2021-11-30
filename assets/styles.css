@@ -1,10 +1,10 @@
 /* styles.css */
 body {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 0;
   margin: 0;
   text-align: center;
-  font-family: 'Roboto', arial;
+  font-family: "Roboto", arial;
 }
 
 .container {
@@ -13,24 +13,21 @@ body {
 }
 /* Nav Part */
 
-.nav 
-{
+.nav {
   display: flex;
-  color: #F9FAF8;
-  background-color: #1F2937;
+  color: #f9faf8;
+  background-color: #1f2937;
   padding: 20px 0px 20px 100px;
   align-items: center;
 }
 
-.nav-link
-{
+.nav-link {
   display: flex;
   margin-left: auto;
-  padding: 0px 100px 0px 0px;  
+  padding: 0px 100px 0px 0px;
 }
 
-.nav-li
-{
+.nav-li {
   list-style-type: none;
   float: right;
   padding-left: 55px;
@@ -41,8 +38,8 @@ body {
 
 .hero {
   display: flex;
-  color: #F9FAF8;
-  background-color: #1F2937;
+  color: #f9faf8;
+  background-color: #1f2937;
   padding: 80px;
   align-items: center;
   justify-content: center;
@@ -57,14 +54,14 @@ body {
 }
 
 .hero-content p {
-  font-family: 'Roboto', arial;
+  font-family: "Roboto", arial;
   opacity: 0.7;
 }
 
 .hero-h1 {
-  color: #F9FAF8;
+  color: #f9faf8;
   margin: 0;
-  font-family: 'Roboto', arial;
+  font-family: "Roboto", arial;
   font-size: 48px;
   font-weight: bold;
 }
@@ -72,7 +69,7 @@ body {
 .hero button {
   border-radius: 8px;
   color: #fff;
-  font-family: 'Roboto', arial;
+  font-family: "Roboto", arial;
   text-align: center;
   width: 100px;
   border: none;
@@ -96,7 +93,6 @@ body {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .mid-content {
@@ -115,12 +111,12 @@ body {
 }
 
 .mid-image img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border: 5px solid #3882F6;
-    border-radius: 16px;
-    margin: 5px 20px 0px 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid #3882f6;
+  border-radius: 16px;
+  margin: 5px 20px 0px 20px;
 }
 
 .mid-image-para {
@@ -131,4 +127,29 @@ body {
 
 .mid-image-para p {
   padding: 0px 90px 0px 83px;
+}
+
+/* Quote Part */
+
+.quote {
+  color: #1f2937;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 0 250px;
+  justify-content: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.quote b {
+    padding-bottom: 25px;
+    padding-right: 25px;
+    font-family: 'Roboto', arial;
+    float: right;
 }
